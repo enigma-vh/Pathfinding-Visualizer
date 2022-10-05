@@ -20,7 +20,7 @@ Now, lets check it out in action :point_right: [The Visualizer](https://ho-pathf
 1) Random Maze
 2) Recursive Division
 
-# Getting Started
+## Getting Started
 ## 1. Clone the repository or download the zip
 ```
 git clone 
