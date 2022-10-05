@@ -1,0 +1,30 @@
+.navbar-brand {
+  color: orange;
+  font-size: x-large;
+  font-weight: 500;
+  padding-inline-start: 1%;
+}
+
+.navbar-brand:hover {
+  color: orange;
+}
+
+.item {
+  color: white;
+  font-size: large;
+}
+
+.navbar-nav > a:hover,
+.navbar-nav > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: grey;
+}
+
+.nav-custom > li {
+  margin: 0px 10px;
+}
+
+.btn-Custom {
+  margin: 0px 20px;
+}

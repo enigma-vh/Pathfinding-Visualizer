@@ -1,0 +1,121 @@
+.node {
+  width: 33px;
+  height: 33px;
+  outline: 0.5px solid rgb(137, 207, 240);
+}
+
+.node-start {
+  background-image: url("../../Design/Images/pig.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.node-finish {
+  background-image: url("../../Design/Images/donut.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.node-wall {
+  background-color: rgb(2, 36, 51);
+}
+
+.node-visited {
+  animation-name: visitedAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: #fffcf9;
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color: #e2fdff;
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: #c9b5fc;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #8b7bf3;
+  }
+}
+
+.node-shortest-path {
+  animation-name: shortestPath;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes shortestPath {
+  0% {
+    transform: scale(0.6);
+    background-color: rgb(137, 207, 240);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: rgb(137, 207, 240);
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: rgb(137, 207, 240);
+  }
+}
+
+.node-wall-animated {
+  animation-name: wallAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes wallAnimation {
+  0% {
+    transform: scale(0.4);
+    background-color: rgb(2, 36, 51);
+    border-radius: 30%;
+  }
+
+  50% {
+    transform: scale(0.6);
+    background-color: rgb(2, 36, 51);
+    border-radius: 20%;
+  }
+
+  75% {
+    transform: scale(0.8);
+    background-color: rgb(2, 36, 51);
+    border-radius: 10%;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: rgb(2, 36, 51);
+    border: 1px solid rgb(2, 36, 51);
+  }
+}
