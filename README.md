@@ -6,7 +6,7 @@ Now, lets check it out in action :point_right: [The Visualizer](https://ho-pathf
 ## Preview (A* Search Algorithm with Random Maze): 
 
 <p align="center">
-  <img src="Preview.gif" width="880">
+  <img src="Preview.gif" width="600" height="500">
 </p>
 
 ## Features in the application
