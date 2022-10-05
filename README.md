@@ -24,7 +24,7 @@ You can also visit this link to experiment with the Visualizer.
 
 2) Recursive Division - Mazes can be created with recursive division, an algorithm which works as follows: Begin with the maze's space with no walls. Call this a chamber. Divide the chamber with a randomly positioned wall (or multiple walls) where each wall contains a randomly positioned passage opening within it. Then recursively repeat the process on the subchambers until all chambers are minimum sized. This method results in mazes with long straight walls crossing their space, making it easier to see which areas to avoid.
 
-# Getting Started/Installation
+# Getting Started
 ## 1. Clone the repository or download the zip
 ```
 git clone https://github.com/Sethuram52001/Path-Finding-Visualizer.git
@@ -49,3 +49,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 ```
 npm start
 ```
+## Thank you
+
+I hope you enjoy the project.
+
+-- [Hao On][https://www.linkedin.com/in/rohithsp/](https://www.linkedin.com/in/hao-on/)
