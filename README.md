@@ -3,7 +3,7 @@ This is a React application to visualize Pathfinding Algorithms and Maze Generat
 
 Now, lets check it out in action :point_right: [The Visualizer](https://ho-pathfinding-visualizer.netlify.app)
 
-## Preview (A* Search Algorithm with Random Maze): 
+## Preview (A<sup>*</sup> Search Algorithm with Random Maze): 
 
 <p align="center">
   <img src="Preview.gif">
