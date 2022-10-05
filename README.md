@@ -12,7 +12,7 @@ Now, lets check it out in action :point_right: [The Visualizer](https://ho-pathf
 ## Features in the application
 ### Algorithms
 1) Dijsktra's Algorithm
-2) A* Search Algorithm
+2) A<sub>*</sub> Search Algorithm
 3) Breadth First Search (BFS)
 4) Depth First Search (DFS)
 
