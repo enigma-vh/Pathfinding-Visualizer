@@ -1,7 +1,7 @@
 # PATHFINDING AND MAZE GENERATION VISUALIZER
 This is a React application to visualize Pathfinding Algorithms and Maze Generation Algorithms. Feel free to fork or download this project so you could try it out and use this code as a foundation to create an even-better Pathfinding Visualizer :grin:.
 
-Now, lets check it out :point_right: [The Visualizer](https://ho-pathfinding-visualizer.netlify.app)
+Now, lets check it out in action :point_right: [The Visualizer](https://ho-pathfinding-visualizer.netlify.app)
 
 ## Preview (A* Search Algorithm with Random Maze): 
 
