@@ -21,17 +21,17 @@ Now, lets check it out in action :point_right: [The Visualizer](https://ho-pathf
 2) Recursive Division
 
 ## Getting Started
-## 1. Clone the repository or download the zip
+### 1. Clone the repository or download the zip
 ```
 git clone 
 ```
 
-## 2. Install the dependencies
+### 2. Install the dependencies
 ```
 npm install
 ```
 
-## 3.Adding Boostrap
+### 3.Adding Boostrap
 ```
 npm i bootstrap
 npm i reactstrap react react-dom
@@ -41,7 +41,7 @@ Don't forget to import Boostrap CSS
 import 'bootstrap/dist/css/bootstrap.css';
 ```
 
-## 4. Start the application
+### 4. Start the application
 ```
 npm start
 ```
