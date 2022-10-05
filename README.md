@@ -1,7 +1,7 @@
 # PATHFINDING AND MAZE GENERATION VISUALIZER
 This is a React application to visualize Pathfinding Algorithms and Maze Generation Algorithms. Feel free to fork or download this project so you could try it out and use this code as a foundation to create an even-better Pathfinding Visualizer :grin:.
 
-You can also visit this link to experiment with the Visualizer: https://ho-pathfinding-visualizer.netlify.app
+You can also visit this link to experiment with the Visualizer(https://ho-pathfinding-visualizer.netlify.app)
 
 ## Preview (A* Search Algorithm with Random Maze): 
 
@@ -17,9 +17,8 @@ You can also visit this link to experiment with the Visualizer: https://ho-pathf
 4) Depth First Search (DFS)
 
 ### Maze generation algorithms
-1) Random Maze - It's just a simple algorithm which creates walls based on the output of a random function.
-
-2) Recursive Division - Mazes can be created with recursive division, an algorithm which works as follows: Begin with the maze's space with no walls. Call this a chamber. Divide the chamber with a randomly positioned wall (or multiple walls) where each wall contains a randomly positioned passage opening within it. Then recursively repeat the process on the subchambers until all chambers are minimum sized. This method results in mazes with long straight walls crossing their space, making it easier to see which areas to avoid.
+1) Random Maze
+2) Recursive Division
 
 # Getting Started
 ## 1. Clone the repository or download the zip
